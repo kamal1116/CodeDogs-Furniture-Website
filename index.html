@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>CodeDogs</title>
+</head>
+<body>
+    <section class="showcase">
+    <header>
+      <h2 class="logo">CodeDogs</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="kamal3.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>One stop solution for all your furniture shopping </h2> 
+      <h3>Explore The World of Furniture</h3>
+      <a href="about.html">About CodeDogs</a>
+    </div>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/zuck"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://www.instagram.com/zuck/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <section class="showcase2">
+  	<h2>Hello	</h2>
+  	
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="bedroom.html">Bedroom</a></li>
+      <li><a href="living.html">Living room</a></li>
+      <li><a href="kitchen.html">Kitchen</a></li>
+      <li><a href="contact.html">Contact us</a></li>
+    </ul>
+  </div>
+  <script>
+  	 const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</body>
+</html>
